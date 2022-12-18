@@ -9,3 +9,30 @@ div {
   border-right-color: transparent; /* the right side */
   border-bottom-color: transparent; /* and the bottom of the circle */
 }
+
+div:first-child{
+border-top-color: #f00;
+}
+div:nth-child(2){
+border-top-color: #ffa500;
+}
+div:nth-child(3){
+border-top-color: #ff0;
+
+}
+div:nth-child(4){
+border-top-color: #00bc3f;
+
+}
+div:nth-child(5){
+border-top-color: #06f;
+
+}
+div:nth-child(6){
+border-top-color: #d300c9;
+
+}
+div:nth-child(7){
+border-top-color: #8a2be2;
+
+}
